@@ -32,3 +32,9 @@ $ pdm add dJango
 $ django-admin startproject mysite .
 $ python manage.py runserver
 ```
+
+# Deploy
+```bash
+$ pdm export -f requirements > requirements.txt
+$ pip install -r requirements.txt
+```
